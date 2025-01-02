@@ -8,8 +8,7 @@ export function CareerViewer() {
   const [selectedRole, setSelectedRole] = useState('product');
 
   return (
-    <div>
-      {/* Header Section */}
+    <div
       <div className="text-center max-w-2xl mx-auto mb-8">
         <h1 className="text-2xl md:text-3xl font-bold mb-4">Career Portfolio</h1>
         <p className="text-gray-300">
