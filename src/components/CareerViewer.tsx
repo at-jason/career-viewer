@@ -9,16 +9,6 @@ export function CareerViewer() {
 
   return (
     <div className="w-full max-w-4xl mx-auto px-2 py-4 md:p-4">
-      {/* Introduction Section */}
-      <div className="mb-6 p-4 bg-gray-100 rounded">
-        <h1 className="text-2xl font-bold mb-2">Modern careers aren't linear</h1>
-        <p className="text-gray-700">
-          They're collections of experiences that build complementary skills. Choose a focus area to explore my 
-          professional journey through different lenses, from product development to analytics and operations.
-        </p>
-      </div>
-
-      {/* Dropdown for Focus Areas */}
       <select 
         value={selectedRole} 
         onChange={(e) => setSelectedRole(e.target.value)}
@@ -30,7 +20,6 @@ export function CareerViewer() {
         <option value="operations">Operations & Continuous Improvement</option>
       </select>
 
-      {/* Career Viewer Details */}
       <div className="mb-6 border rounded p-6">
         <h2 className="text-2xl font-bold mb-4">{careerData[selectedRole].title}</h2>
         <p className="text-white-600 mb-6">{careerData[selectedRole].summary}</p>
