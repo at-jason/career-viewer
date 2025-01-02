@@ -9,10 +9,9 @@ export function CareerViewer() {
 
   return (
     <div className="w-full max-w-4xl mx-auto px-2 py-4 md:p-4">
-      <div className="mb-6 p-4 bg-gray-100 rounded">
-  <h1 className="text-2xl font-bold mb-2">Modern careers aren&apos;t linear</h1>
-  <p className="text-gray-700">
-    They&apos;re collections of experiences that build complementary skills. Choose a focus area to explore my 
+      <div className="mb-6 p-4 rounded">
+  <p className="text-white">
+    Modern careers aren&apos;t linear They&apos;re collections of experiences that build complementary skills. Choose a focus area to explore my 
     professional journey through different lenses, from product development to analytics and operations.
   </p>
 </div>
