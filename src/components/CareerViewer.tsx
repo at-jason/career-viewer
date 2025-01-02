@@ -8,11 +8,11 @@ export function CareerViewer() {
   const [selectedRole, setSelectedRole] = useState('product');
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4">
+    <div className="w-full max-w-4xl mx-auto px-2 py-4 md:p-4">
       <select 
         value={selectedRole} 
         onChange={(e) => setSelectedRole(e.target.value)}
-        className="w-full md:w-[280px] mb-6 p-2 border rounded text-black"
+        className="w-full md:w-[280px] mb-4 md:mb-6 p-2 border rounded text-black"
       >
         <option value="product">Product Management</option>
         <option value="support">Customer Operations</option>
