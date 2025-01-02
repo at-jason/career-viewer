@@ -28,7 +28,7 @@ export function CareerViewer() {
           <h3 className="text-lg font-semibold mb-4">Career Progression</h3>
           <div className="space-y-6">
             {careerData[selectedRole].experience.map((exp, index) => (
-              <div key={index} className="border-l-2 border-blue-200 pl-4">
+              <div key={index} className="border-l-2 border-green-100 pl-4">
                 <h4 className="font-medium text-lg">{exp.company}</h4>
                 <div className="text-sm text-white mb-2">
                   {exp.role} | {exp.period}
