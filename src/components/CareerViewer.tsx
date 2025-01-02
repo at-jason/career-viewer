@@ -6,15 +6,9 @@ import { careerData } from '@/lib/career-data';
 
 export function CareerViewer() {
   const [selectedRole, setSelectedRole] = useState('product');
+
   return (
     <div className="w-full max-w-4xl mx-auto px-2 py-4 md:p-4">
-      <div className="text-center max-w-2xl mx-auto mb-8">
-        <h1 className="text-2xl md:text-3xl font-bold mb-4">Career Portfolio</h1>
-        <p className="text-white">
-          Modern careers aren't linear—they're collections of experiences that build complementary skills. Choose a focus area to explore my professional journey through different lenses, from product development to analytics and operations.
-        </p>
-      </div>
-      
       <select 
         value={selectedRole} 
         onChange={(e) => setSelectedRole(e.target.value)}
@@ -25,7 +19,7 @@ export function CareerViewer() {
         <option value="analytics">Analytics & Insights</option>
         <option value="operations">Operations & Continuous Improvement</option>
       </select>
-      
+
       <div className="mb-6 border rounded p-6">
         <h2 className="text-2xl font-bold mb-4">{careerData[selectedRole].title}</h2>
         <p className="text-white-600 mb-6">{careerData[selectedRole].summary}</p>
