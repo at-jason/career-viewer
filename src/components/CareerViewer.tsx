@@ -8,7 +8,7 @@ export function CareerViewer() {
   const [selectedRole, setSelectedRole] = useState('product');
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-2 py-4 md:p-4">
+    <div className="w-full max-w-4xl mx-auto py-4 md:p-4">
       <div className="mb-6 p-4 rounded">
   <p className="text-white">
     Modern careers aren&apos;t linear—They&apos;re collections of experiences that build complementary skills. Choose a focus area to explore my 
