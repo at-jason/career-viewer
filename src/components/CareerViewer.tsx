@@ -25,7 +25,7 @@ export function CareerViewer() {
         <p className="text-white-600 mb-6">{careerData[selectedRole].summary}</p>
         
         <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-4">Career Progression</h3>
+          <h3 className="text-lg font-semibold mb-4">Professional Experience</h3>
           <div className="space-y-6">
             {careerData[selectedRole].experience.map((exp, index) => (
               <div key={index} className="border-l-2 border-green-300 pl-4">
@@ -47,7 +47,7 @@ export function CareerViewer() {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-3">Core Competencies</h3>
+          <h3 className="text-lg font-semibold mb-3">Core Skills</h3>
           <div className="flex flex-wrap gap-2">
             {careerData[selectedRole].keySkills.map((skill, index) => (
               <span key={index} className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
