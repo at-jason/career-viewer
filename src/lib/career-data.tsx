@@ -100,7 +100,7 @@ export const careerData: CareerData = {
   ]
 },
    support: {
-  title: 'Customer Operations',
+  title: 'Customer Experience',
   summary: 'Experienced customer operations leader with a proven track record of scaling teams, optimizing service delivery, and implementing Voice of Customer programs to enhance customer satisfaction and operational efficiency.',
   experience: [
     {
@@ -266,21 +266,21 @@ export const careerData: CareerData = {
   ]
 },
   operations: {
-     title: 'Operations & Continuous Improvement',
+  title: 'Logistics/Operations & Continuous Improvement',
   summary: 'Operations leader specializing in process optimization and continuous improvement. Proven track record of implementing scalable solutions and driving operational excellence.',
   experience: [
     {
       company: 'REEF',
-      role: 'Product Manager, Development & Excellence',
+      role: 'Product Manager, Development & Excellence - Logistics as a Service',
       period: 'Jun 2021 - Oct 2021',
       achievements: [
-        'Optimized vehicle loading reducing delivery issues 85%',
-        'Achieved 90% on-time delivery rate across all products',
-        'Designed hub layouts supporting 400 daily appointments',
-        'Launched alcohol delivery operation in 14 days',
-        'Created SOPs and KPIs for new delivery programs',
-        'Managed contractor relationships across multiple hubs',
-        'Scaled NYC delivery operations by 200%'
+        'Conducted root cause analysis of delivery defects, reducing customer complaints by 85%.',
+        'Achieved 90% on-time performance through standardized KPIs and operating procedures.',
+        'Optimized vehicle loading processes, reducing delivery issues by 30%.',
+        'Designed delivery hub layouts supporting 400 daily appointments.',
+        'Launched alcohol delivery operations within 14 days, ensuring compliance and operational readiness.',
+        'Managed cross-functional projects with IT, Operations, and Customer Service teams to improve service delivery.',
+        'Scaled NYC delivery operations by 200% through streamlined fulfillment processes.'
       ]
     },
     {
@@ -288,29 +288,46 @@ export const careerData: CareerData = {
       role: 'Manager, Continuous Improvement',
       period: '2019 - 2021',
       achievements: [
-        'Led operational excellence initiatives across 24 markets',
-        'Reduced defect tickets 75% in 90 days through process optimization',
-        'Decreased late deliveries 15% through automated QA',
-        'Managed supply chain for 2M+ stored items',
-        'Designed inventory health dashboard for 18k+ locations',
-        'Created scalable onboarding for operational leaders',
-        'Developed WMS features reducing inbound defects 40%'
+        'Directed quality and improvement initiatives across 24 markets, reducing inbound defects by 40%.',
+        'Built an inventory health dashboard visualizing 18,000 pallet locations, reducing customer-reported issues by 30%.',
+        'Implemented operational KPIs and performance tracking, improving defect resolution rates by 75%.',
+        'Automated quality assurance processes, reducing processing delays by 15%.',
+        'Developed WMS features that reduced inbound defects and streamlined warehouse operations.',
+        'Managed supply chain logistics for 2M+ stored items across multiple locations.'
       ]
     },
     {
       company: 'MakeSpace',
-      role: 'Customer-Operations Liaison',
+      role: 'Associate Manager, Quality and Special Projects',
       period: '2018 - 2019',
       achievements: [
-        'Led insourcing of warehouse operations in multiple markets',
-        'Directed Toronto market launch achieving $3M first-year revenue',
-        'Installed WMS across facilities reducing delivery lead time',
-        'Managed quality initiatives improving NPS by 40 points',
-        'Led operational training for ten new markets',
-        'Designed workflows for inventory management'
+        'Reduced missing item and no-owner ticket backlog by 75% through new defect tracking systems.',
+        'Streamlined claims processes, reducing resolution time from 14 to 6 days.',
+        'Elevated NPS by 40 points through improved standard operating procedures and defect resolution initiatives.',
+        'Developed and led on-site training sessions across multiple markets to implement WMS workflows.',
+        'Directed Toronto market launch, achieving $3M first-year revenue through optimized operations.'
       ]
-      }
-    ],
-    keySkills: ['Process Optimization', 'Quality Management', 'Supply Chain', 'Team Leadership', 'Project Management']
-  }
+    },
+    {
+      company: 'MakeSpace',
+      role: 'Associate Manager, Customer Operations',
+      period: '2017 - 2018',
+      achievements: [
+        'Built performance monitoring infrastructure, ensuring 85% of agents exceeded KPIs within 90 days.',
+        'Developed predictive staffing models, maintaining 95% service levels while optimizing costs.',
+        'Automated status synchronization across departments, reducing interdepartmental transfers by 15%.'
+      ]
+    }
+  ],
+  keySkills: [
+    'Process Optimization',
+    'Quality Management',
+    'Supply Chain',
+    'Team Leadership',
+    'Project Management',
+    'Root Cause Analysis',
+    'Standard Operating Procedures',
+    'Cross-Functional Collaboration'
+  ]
+},
 };
