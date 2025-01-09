@@ -15,9 +15,9 @@ export function CareerViewer() {
         className="w-full md:w-[280px] mb-4 md:mb-6 p-2 border rounded text-black"
       >
         <option value="product">Product Management</option>
-        <option value="support">Customer Operations</option>
+        <option value="support">Customer Experience</option>
         <option value="analytics">Analytics & Insights</option>
-        <option value="operations">Operations & Continuous Improvement</option>
+        <option value="operations">Logistics/Operations & Continuous Improvement</option>
       </select>
 
       <div className="mb-6 border rounded p-6">
