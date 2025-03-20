@@ -33,11 +33,10 @@ export function CareerViewer() {
                 <div className="text-sm text-white mb-2">
                   {exp.role} | {exp.period}
                 </div>
-                <ul className="space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   {exp.achievements.map((achievement, i) => (
-                    <li key={i} className="flex items-start">
-                      <span className="mr-2">•</span>
-                      <span className="text-sm">{achievement}</span>
+                    <li key={i} className="text-sm">
+                      {achievement}
                     </li>
                   ))}
                 </ul>
@@ -60,3 +59,4 @@ export function CareerViewer() {
     </div>
   );
 }
+
